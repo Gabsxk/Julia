@@ -6,7 +6,7 @@ using Plots
 using LaTeXStrings
 
 #Tema dos Plots
-#theme(:dark)
+theme(:dark)
 
 # Simple Exemple of Gif plot
 p = plot(1)
