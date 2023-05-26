@@ -2,11 +2,11 @@
 # Alt+R
 
 # Inicializar biblioteca de plots
-using Plots
 using LaTeXStrings
+using Plots
 
 #Tema dos Plots
-#theme(:dark)
+theme(:dark)
 
 #Primeiro Plot - Usar display ao final para impressão
 x = 10 .^ range(0, 4, length=100)
